@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>音樂投票小工具</h1>
+    <table border="1">
+        <tr>
+            <td>歌名</td>
+            <td>票數</td>
+            <td>投票</td>
+        </tr>
+        {% for i in music %}
+        <tr>
+            <td>{{i.name}}</td>
+            <td>{{i.num}}</td>
+            <td><a href="/vote?id={{i.id}}">點贊</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
