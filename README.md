@@ -15,7 +15,7 @@
 ## 安裝方式
 1. 下載專案到本地
     ```bash
-    git clone https://github.com/你的帳號/Music_Upvote.git`
+    git clone https://github.com/Lizzy1219/Music_Upvote.git`
     cd Music_Upvote
     ```
 2. 手動安裝套件
